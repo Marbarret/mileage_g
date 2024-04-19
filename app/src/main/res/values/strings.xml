@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Mileage_g</string>
+    <string name="km_final">Km Final</string>
+    <string name="mileage">Mileage</string>
+    <string name="calcular">Calcular</string>
+    <string name="km_inicial">Km Inicial</string>
 </resources>

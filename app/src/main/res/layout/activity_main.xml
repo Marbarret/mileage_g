@@ -15,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
 
     </LinearLayout>
 
@@ -25,7 +26,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        android:text="Calcular"
+        android:text="@string/calcular"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -39,7 +40,7 @@
         android:background="#FFFFFF"
         android:paddingHorizontal="10dp"
         android:paddingVertical="10dp"
-        android:text="Km Inicial"
+        android:text="@string/km_inicial"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idTitle" />
@@ -53,10 +54,11 @@
         android:background="#FFFFFF"
         android:paddingHorizontal="10dp"
         android:paddingVertical="10dp"
-        android:text="Km Final"
+        android:text="@string/km_final"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/idTitle"
+        tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/idTitle"
@@ -65,7 +67,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
-        android:text="Mileage"
+        android:text="@string/mileage"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
